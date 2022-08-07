@@ -1,0 +1,9 @@
+.btn {
+    border-radius: 50px;;
+}
+
+.vcenter-item{
+    display: flex;
+    align-items: center;
+}
+ 
