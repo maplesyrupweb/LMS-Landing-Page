@@ -7,3 +7,15 @@
     align-items: center;
 }
  
+/* #F02AA6 - FF6F48 */
+/* #4851FF - F02AA6 */
+
+.btn-grad {
+  background-color: #F02AA6;
+}
+         
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #FF6F48;
+  text-decoration: none;
+}
