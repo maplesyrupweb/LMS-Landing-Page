@@ -22,12 +22,21 @@
 
 .card-padding {
 
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 
 }
 
 .card {
-  min-height: 400px;
+  min-height: 300px;
   /* max-height:  */
+}
+
+#content {
+  position: relative;
+}
+#content img {
+  position: absolute;
+  top: -35px;
+  left: 20px;
 }
