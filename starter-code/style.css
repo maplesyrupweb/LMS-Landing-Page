@@ -1,12 +1,14 @@
-.vcenter-item{
-    display: flex;
-    align-items: center;
-}
- 
+
+/**
+* Colors
+*/
+
 :root {
   --theme1: linear-gradient(#4851FF, #f02aa6);
   --theme2: linear-gradient(#F02AA6, #FF6F48);
   --purple: #666CA3;
+  --white: #fffff;
+
 }
 
 /****
@@ -34,12 +36,7 @@
   border: none;
 }
 
-.card-link {
-  text-decoration: none;
-  background: var(--theme1);
-}
          
-
 /***
 * Cards
 **/
@@ -56,6 +53,15 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
+.card-link {
+  text-decoration: none;
+  background: var(--theme1);
+}
+
+.card-initial {
+  background: var(--theme2);
+  color: white !important;
+}
 
 /**
 * Navigation Bar
@@ -90,4 +96,9 @@
 
 h3 {
   padding-top: 30px;
+}
+
+.vcenter-item{
+  display: flex;
+  align-items: center;
 }
