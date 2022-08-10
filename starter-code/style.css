@@ -63,6 +63,7 @@
   color: white !important;
 }
 
+
 /**
 * Navigation Bar
 **/
@@ -102,3 +103,13 @@ h3 {
   display: flex;
   align-items: center;
 }
+
+a {
+  color: #F02AA6;
+  text-decoration: none;
+}
+
+a:hover {
+  background: white;
+}
+
